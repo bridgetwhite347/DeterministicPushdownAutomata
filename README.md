@@ -11,17 +11,29 @@ Method
 Determine the look ahead rules of the language.
 
 Construct a state class and a transition class that can be used to define these rules.
+
 The transition class includes 
+
 String input -- expected input for rule
+
 String pop -- element to be popped from the stack
+
 String push -- element to be pushed to the stack
+
 State destination -- the next state for the next transition
+
 int ruleNum -- number of the transition rule
+
 String gRule -- grammar rule if there is one
+
 The state class includes
+
 ArrayList of transitions -- all transitions for a given state
+
 boolean stateEnd -- indicates if the state is the final state
+
 String stateID -- name of the state, used to print
+
 Develop a loop that can iterate through user input, determine which rule should be used, and implement that rule.
 Takes in user input using the Java Scanner class.
 Uses a do while loop that iterates through while stack is not empty, there is still unread input, and current state is not the final state.
