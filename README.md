@@ -2,10 +2,10 @@ Deterministic Pushdown Automata Model in Java
 A push-down automata which can recognize the context-
 free language L={a^n b^n | n ≥ 0}.
 
-##Overview
+## Overview
 This project uses an object oriented approach to implement a deterministic pushdown automata for the context-free language L={a^n b^n | n ≥ 0}.  The PDA can look-ahead one step.
 
-##Method
+## Method
 1. Determine the look ahead rules of the language.
 
 2. Construct a state class and a transition class that can be used to define these rules.
@@ -27,7 +27,7 @@ This project uses an object oriented approach to implement a deterministic pushd
        - Uses if/else to check for the correct transition.
        - Runs display function at the end of each iteration.
 
-##Conclusion
+## Conclusion
 - Java was not the most efficient way to implement a deterministic pushdown automata.
 - Python would have offered a simpler way to implement a deterministic pushdown automata for this language by using a dictionary.
 - Debugging
